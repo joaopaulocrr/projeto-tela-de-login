@@ -2,17 +2,19 @@
 
 @font-face {
   font-family: 'Segoe';
-  src: url('../fonts/Segoe UI .ttf') format('truetype');
-  font-weight: lighter;
+  src: url('../fonts/Segoe UI.ttf') format('truetype');
+  font-weight: 100;
 }
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #5F2C82;
+  background-color: #aa6bd4;
   font-family: 'Segoe';
+  font-size: 14px;
 }
 
 main {
@@ -32,7 +34,13 @@ main section {
   background: url('../imagens/pexels-alexander-grey-1407278.jpg') no-repeat;
 background-position: center center;
 background-size: cover;
-border-radius: 15px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+
+#login {
+  width: 90%;
+  margin: auto;
 }
 
 fieldset {
@@ -41,7 +49,79 @@ fieldset {
 
 legend {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: bold;
-  padding: 20px;
+  padding: 10px;
+}
+
+fieldset p {
+ text-align: justify;
+}
+
+.inputs {
+ width: 100%;
+ background-color: #7010b1;
+ margin-bottom: 5px;
+ height: 40px;
+ border-radius: 8px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.material-symbols-rounded {
+  color: white;
+  font-size: 35px;
+  padding: 8px;
+}
+
+#isenha, #iemail {
+  height: 60%;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #94CFCD;
+}
+
+#iemail:focus {
+  background-color: white;
+}
+
+#isenha:focus {
+  background-color: white;
+}
+
+#entrar {
+  border: none;
+  background-color: #53aaa7;
+  color: white;
+  font-size: 15px;
+}
+
+#entrar:hover {
+  background-color: #2D6462;
+  cursor: pointer;
+}
+
+#button {
+  background-color: white;
+  border: 1px solid #49A09D;
+}
+
+#button > button {
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#msg {
+  color: #2D6462;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+#button:hover {
+  background-color: #6CD3CF;
+  cursor: pointer;
 }
