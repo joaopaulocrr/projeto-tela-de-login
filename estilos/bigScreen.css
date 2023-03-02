@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 991px) {
+  
+
+
+  main section {
+    height: 350px;
+    width: 900px;
+  }
+
+  #imagem {
+    height: 100%;
+    background: url('../imagens/pexels-jordan-meenaghan-13525027.jpg') no-repeat;
+     background-size: cover;
+     transform: translate(671px);
+     transition-duration:  1s;
+     border-bottom-left-radius: 0;
+     border-bottom-right-radius: 15px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 15px;
+  }
+  #login {
+    transform: translate(-235px);
+    transition-duration: 1s;
+
+  }
+
+  fieldset p {
+    font-size: 20px;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+   
+  }
+}

@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -36,10 +37,12 @@ background-position: center center;
 background-size: cover;
 border-top-right-radius: 15px;
 border-top-left-radius: 15px;
+width: 100%; 
+height: 200px;
 }
 
 #login {
-  width: 90%;
+  padding: 0 10px;
   margin: auto;
 }
 
@@ -56,6 +59,7 @@ legend {
 
 fieldset p {
  text-align: justify;
+ padding-bottom: 5px;
 }
 
 .inputs {

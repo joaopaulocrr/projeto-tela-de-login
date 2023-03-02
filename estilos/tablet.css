@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: linear-gradient(to bottom, #5f2c82, #4B939A);
+  }
+
+  main section {
+    display: flex;
+    width: 85%;
+    transition-duration: .3s;
+  }
+
+  #imagem {
+    background: url('../imagens/pexels-engin-akyurt-2092075.jpg') no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 277px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+
+  }
+
+  .inputs-tablet {
+    justify-content: space-between;
+  }
+
+  #isenha, #iemail {
+    width: 100%;
+    margin-bottom: -3px;
+  }
+}
