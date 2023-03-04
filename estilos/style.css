@@ -80,7 +80,7 @@ fieldset p {
 }
 
 #isenha, #iemail {
-  height: 60%;
+  height: 70%;
   border-radius: 10px;
   padding: 4px;
   background-color: #94CFCD;
@@ -90,7 +90,7 @@ fieldset p {
   background-color: white;
 }
 
-#isenha:focus {
+#isenha:focus-within {
   background-color: white;
 }
 

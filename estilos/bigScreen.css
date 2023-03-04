@@ -13,12 +13,12 @@
     height: 100%;
     background: url('../imagens/pexels-jordan-meenaghan-13525027.jpg') no-repeat;
      background-size: cover;
-     transform: translate(671px);
-     transition-duration:  1s;
      border-bottom-left-radius: 0;
      border-bottom-right-radius: 15px;
      border-top-left-radius: 0;
      border-top-right-radius: 15px;
+     transform: translate(671px);
+     transition-duration:  1s;
   }
   #login {
     transform: translate(-235px);
